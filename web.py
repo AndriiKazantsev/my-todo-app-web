@@ -3,7 +3,6 @@ import functions
 
 
 todos = functions.get_todos()
-print(st.session_state)
 
 if 'added_todo' not in st.session_state:
     st.session_state.added_todo = ''
